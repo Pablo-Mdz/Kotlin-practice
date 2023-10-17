@@ -11,9 +11,9 @@ fun main() {
 
     println("Lass uns deine Körpermasse berechnen")
     println("Bitte geben Sie Ihr Gewicht (in kg) an")
-    var gewicht = readln().toFloat()
+    var gewicht = readln().toDouble()
     println("jetzt deine Körpergröße (in Zentimetern und nur die Zahl, zum Beispiel: 180)")
-    var korpergr = readln().toFloat() / 100
+    var korpergr = readln().toDouble() / 100
     var result = gewicht / (korpergr * korpergr)
 
     println("Deine BMI ist : $result")
