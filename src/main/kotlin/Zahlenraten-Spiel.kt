@@ -16,14 +16,16 @@ fun main() {
     println("Hallo! bitte schreibe Sie Ihre Name: ")
     var name = readln()
     println("Willkommen $name, Sie müssen eine Zahl erraten, die ich denke! muss zwischen 1 und 10 liegen ")
-    println("Bitte gebe eine Nummer ein: ")
-    var num = readln().toInt()
+
     val numRandom = Random.nextInt(1,10)
 
-    if (num == numRandom){
-        println("Die Nummer ist die gleiche, $name du hast es erraten!!")
-    } else {
-        println("$name, leider die Nummer ist nicht gleich, bitte probiere nochmals.")
-    }
+    do {
+        println("Bitte gebe eine Nummer ein: ")
+    var num = readln().toInt()
+        when {
+            num != numRandom -> println("$name, leider die Nummer ist nicht gleich, bitte probiere nochmals.")
+            else -> println("Die Nummer ist die gleiche, $name du hast es erraten!!")
+        }
+    } while (num != numRandom)
 
 }
