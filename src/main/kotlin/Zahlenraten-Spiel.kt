@@ -20,11 +20,11 @@ fun main() {
 
     do {
         println("Bitte gebe eine Nummer ein: ")
-    var num = readln().toInt()
+    var num : Int = readln().toInt()
         when {
             num != numRandom -> println("$name, leider die Nummer ist nicht gleich, bitte probiere nochmals.")
             else -> println("Die Nummer ist die gleiche, $name du hast es erraten!!")
         }
     } while (num != numRandom)
-
+    println("you winn!!")
 }
