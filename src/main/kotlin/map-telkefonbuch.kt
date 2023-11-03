@@ -11,6 +11,7 @@ fun main() {
         "Laura" to 1984322,
         "Sandra" to 1444832
     )
+
     println("Die TelefonNummer von Guillerme ist: ${telefonNummers.get("Guillerme") } ")
 
 }
