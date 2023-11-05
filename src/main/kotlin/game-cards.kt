@@ -104,6 +104,7 @@ fun main() {
     println("$spieler2 hat die Karte ${carteSpieler2[zweiteKarteWerfelnSpieler2]} abgeworfen und die Karte $deleteCard8 gezogen")
     carteSpieler2.removeAt(zweiteKarteWerfelnSpieler2)
 
+
     println("----------------------------------")
     val totalValueSpieler1 = carteSpieler1.map { cardValues.getOrDefault(it, 0) }.sum()
     val totalValueSpieler2 = carteSpieler2.map { cardValues.getOrDefault(it, 0) }.sum()
@@ -123,7 +124,7 @@ fun main() {
     } else if (totalValueSpieler1 < totalValueSpieler2) {
         println("Der Gewinner ist $spieler2 mit $totalValueSpieler2 Punkten!!!")
     } else {
-        println("Die beiden Spieler waren unentschieden con $totalValueSpieler1 Punkten!!!")
+        println("Die beiden Spieler waren unentschieden con $totalValueSpieler1 Punkten, Congratulations!!")
     }
 
 }
