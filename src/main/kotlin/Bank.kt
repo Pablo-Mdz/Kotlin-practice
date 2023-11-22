@@ -309,7 +309,7 @@ val maintenanceFee = 0.99
  * D.h. das Konto wird aus der MutableMap gelöscht und es wird eine Nachricht in der Konsole ausgegeben.
  *
  * @param name Der Name des Kontoinhabers.
- * @throws Exception Wenn das Konto nicht existiert oder wenn der Kontostand für die Kosten nicht ausreicht.
+ * @throws Exception Wenn das Konto nicht existiert oder wenn der Krontostand für die Kosten nicht ausreicht.
  */
 fun annualClosure() {
     val listName: MutableSet<String> = usersMap.keys
