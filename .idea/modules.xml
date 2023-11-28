@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Kotlin-practice.iml" filepath="$PROJECT_DIR$/Kotlin-practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/videothek/videothek.iml" filepath="$PROJECT_DIR$/videothek/videothek.iml" />
     </modules>
   </component>
 </project>
