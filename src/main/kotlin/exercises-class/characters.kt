@@ -25,4 +25,5 @@ fun main() {
     val character2: GameCharacter = GameCharacter("Eddie", true, 18, 1.80, 18)
     val character3: GameCharacter = GameCharacter("Eddie", true, 18, 1.80, 18)
     val character4: GameCharacter = GameCharacter("Eddie", true, 18, 1.80, 18)
+    val character5: GameCharacter = GameCharacter("Anna", false, 28, 1.90,null)
     }
